@@ -1,0 +1,23 @@
+{
+  "name": "trex",
+  "version": "0.1.0",
+  "description": "Test generator tool",
+  "main": "generator.js",
+  "scripts": {
+    "compile": "tsc",
+    "generate": "node generator.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "unit",
+    "test",
+    "automation",
+    "generator"
+  ],
+  "author": "LP",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "typescript": "^4.6.3"
+  }
+}
