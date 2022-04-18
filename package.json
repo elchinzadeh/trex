@@ -1,13 +1,8 @@
 {
   "name": "trex",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Test generator tool",
-  "main": "generator.js",
-  "scripts": {
-    "compile": "tsc",
-    "generate": "node generator.js",
-    "test": "jest"
-  },
+  "main": "lib/index.js",
   "keywords": [
     "unit",
     "test",
@@ -16,8 +11,12 @@
   ],
   "author": "LP",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^27.5.1",
-    "typescript": "^4.6.3"
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.2.0",
+    "conf": "^10.1.2"
+  },
+  "bin": {
+    "trex": "bin/index.js"
   }
 }

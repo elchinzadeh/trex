@@ -1,5 +1,3 @@
 node_modules
 tests/
 *.test.js
-*.js
-!generator.js
