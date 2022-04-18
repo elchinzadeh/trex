@@ -1,5 +1,5 @@
 {
-  "name": "trex",
+  "name": "@zze/trex",
   "version": "0.2.0",
   "description": "Test generator tool",
   "main": "lib/index.js",
@@ -18,5 +18,20 @@
   },
   "bin": {
     "trex": "bin/index.js"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elchinzadeh/trex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elchinzadeh/trex/issues"
+  },
+  "homepage": "https://github.com/elchinzadeh/trex#readme"
 }
